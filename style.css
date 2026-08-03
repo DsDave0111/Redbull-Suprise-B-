@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    background-color: #2C3E35;
+    color: white;
+    font-family: "Open Sans", sans-serif
+
+}
+
+button{
+    background-color: #d61f26;
+    color: white;
+    border: none;
+    padding: 30px 60px;
+    font-size: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 70px;
+    letter-spacing: 10px;
+    margin-top: 0;
+    word-spacing: 15px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 50px;
+    word-spacing: 8px;
+    margin-top: 10px;
+}
+
