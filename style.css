@@ -61,7 +61,7 @@ p {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 844px) {
     h1{
         font-size: 2rem;
     }
