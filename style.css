@@ -5,7 +5,8 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color: #111111;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    min-height: 100vh;     
     color: white;
     font-family: "Open Sans", sans-serif
 
@@ -25,40 +26,60 @@ button{
 
 h1 {
     margin-bottom: 0;
-    font-size: 7rem;
+    font-size: 6rem;
     letter-spacing: 1.5rem;
     word-spacing: 2rem;
-    animation: float 2s ease-in-out infinite;
+    animation: float 5s ease-in-out infinite;
     text-shadow: 0px 0px 75px gold;
-    filter: brightness(2.5);     
+    color: goldenrod;
+    filter: brightness(2.5);
+       
 }
 
 p {
     margin-bottom: 10rem;
     font-size: 3rem;
     word-spacing: 1rem;
-    text-shadow: 0px 0px 35px gold;
+    text-shadow: 0px 0px 60px gold;
     color: yellow;
-    animation: float 2.5s ease-in-out infinite;
+    animation: float 5s ease-in-out infinite;
     letter-spacing: 1rem;
     filter: brightness(2.5);
 }
 
 @keyframes float{
     0% {
+        transform: translateY(0px);
+    }
+    10% {
         transform: translateY(-10px);
     }
-    25% {
-        transform: translateY(-30px)
+    20% {
+        transform: translateY(-20px);
+    }
+    30% {
+        transform: translateY(-30px); 
+    }
+    40% {
+        transform: translateY(-40px);
     }
     50% {
+        transform: translateY(-50px);
+        }
+    60% {
+        transform: translateY(-40px);
+    }
+    70% {
         transform: translateY(-30px);
     }
-    75% {
-        transform: translateY(-30px) 
+    80% {
+        transform: translateY(-20px);
+    }
+    90% {
+        transform: translateY(-10px);
     }
     100% {
-        transform: translateY(-10px);
+        transform: translateY(0px);
     }
 }
 
