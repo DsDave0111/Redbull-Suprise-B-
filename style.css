@@ -22,6 +22,7 @@ button{
     cursor: pointer;
     font-family: inherit;
     transition: all 0.50s ease;
+    margin-top: 7em;
 }
 
 h1 {
@@ -29,58 +30,38 @@ h1 {
     font-size: 6rem;
     letter-spacing: 1.5rem;
     word-spacing: 2rem;
-    animation: float 5s ease-in-out infinite;
+    animation: float 2.5s ease-in-out infinite;
     text-shadow: 0px 0px 75px gold;
-    color: goldenrod;
+    color: white;
     filter: brightness(2.5);
-       
+    font-weight: bold;
+    -webkit-text-stroke: .05em black;
+    text-stroke: .25em black   
 }
 
 p {
-    margin-bottom: 10rem;
+    margin-bottom: 0;
     font-size: 3rem;
     word-spacing: 1rem;
-    text-shadow: 0px 0px 60px gold;
-    color: yellow;
-    animation: float 5s ease-in-out infinite;
+    color: white;
+    animation: float 2.5s ease-in-out infinite;
     letter-spacing: 1rem;
     filter: brightness(2.5);
+    font-weight: bold;
+    text-shadow: 0px 0px 60px gold;
 }
 
 @keyframes float{
     0% {
-        transform: translateY(0px);
-    }
-    10% {
-        transform: translateY(-10px);
-    }
-    20% {
-        transform: translateY(-20px);
-    }
-    30% {
-        transform: translateY(-30px); 
-    }
-    40% {
-        transform: translateY(-40px);
+        transform: translateY(-2.5px) scale(1.1);
     }
     50% {
-        transform: translateY(-50px);
-        }
-    60% {
-        transform: translateY(-40px);
-    }
-    70% {
-        transform: translateY(-30px);
-    }
-    80% {
-        transform: translateY(-20px);
-    }
-    90% {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
     100% {
-        transform: translateY(0px);
+        transform: translateY(-2.5px) scale(1.1);
     }
+  
 }
 
 @media (max-width: 844px) {
