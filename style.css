@@ -16,7 +16,7 @@ button{
     background-color: #C80815;
     color: white;
     border: none;
-    padding: 1rem 3rem;
+    padding: .5em 1.5em;
     font-size: 3rem;
     border-radius: 2rem;
     cursor: pointer;
